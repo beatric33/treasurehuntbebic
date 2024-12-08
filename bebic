@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Treasure Hunt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="treasure-hunt">
+        <h1>Code Treasure Hunt</h1>
+
+        <div id="clue1" class="clue">
+            <h2>Clue 1: Reverse a String</h2>
+            <p>Write a function that takes a string as input and returns the string reversed.</p>
+            <textarea id="input1" placeholder="Enter your reversed string solution here"></textarea>
+            <button onclick="checkClue1()">Submit</button>
+            <p id="result1"></p>
+        </div>
+
+        <div id="clue2" class="clue" style="display:none;">
+            <h2>Clue 2: Sum of Even Numbers</h2>
+            <p>Write a function that takes a list of numbers and returns the sum of all even numbers.</p>
+            <textarea id="input2" placeholder="Enter your sum of evens solution here"></textarea>
+            <button onclick="checkClue2()">Submit</button>
+            <p id="result2"></p>
+        </div>
+
+        <div id="clue3" class="clue" style="display:none;">
+            <h2>Clue 3: Find the Hidden Message</h2>
+            <p>Write a function that extracts every second character from a string to reveal a hidden message.</p>
+            <textarea id="input3" placeholder="Enter your hidden message solution here"></textarea>
+            <button onclick="checkClue3()">Submit</button>
+            <p id="result3"></p>
+        </div>
+
+        <div id="clue4" class="clue" style="display:none;">
+            <h2>Clue 4: Basic Calculator</h2>
+            <p>Write a basic calculator function that performs addition, subtraction, multiplication, and division based on the operator provided.</p>
+            <textarea id="input4" placeholder="Enter your calculator solution here"></textarea>
+            <button onclick="checkClue4()">Submit</button>
+            <p id="result4"></p>
+        </div>
+
+        <div id="final-clue" class="clue" style="display:none;">
+            <h2>Congratulations!</h2>
+            <p>Here is your final prize:</p>
+            <img src="labrador.jpg" alt="Labrador Retriever Puppy">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
